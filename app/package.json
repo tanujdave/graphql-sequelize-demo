@@ -1,0 +1,29 @@
+{
+  "name": "graphql-sequelize-demo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "parcel --port=7001 src/index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.36",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@babel/polyfill": "^7.10.1",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "graphql": "^15.1.0",
+    "graphql-tag": "^2.10.3",
+    "react": ">= 16.8.0",
+    "react-apollo": "^3.1.5",
+    "react-dom": ">= 16.8.0",
+    "react-hook-form": "^5.7.2",
+    "react-is": ">= 16.8.0",
+    "styled-components": "^5.1.1"
+  }
+}
